@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.ebay.runners.CukesRunner" time="44.962" tests="2" errors="1" skipped="0" failures="1">
+  <properties>
+    <property name="cucumber.features" value="src/test/resources/features/ebaySearch.feature"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.specification.version" value="12"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/riyanshrajeev/Desktop/EbaySearch/target/test-classes:/Users/riyanshrajeev/Desktop/EbaySearch/target/classes:/Users/riyanshrajeev/.m2/repository/io/rest-assured/rest-assured/4.3.2/rest-assured-4.3.2.jar:/Users/riyanshrajeev/.m2/repository/org/codehaus/groovy/groovy/3.0.6/groovy-3.0.6.jar:/Users/riyanshrajeev/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.6/groovy-xml-3.0.6.jar:/Users/riyanshrajeev/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/riyanshrajeev/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/riyanshrajeev/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/riyanshrajeev/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/riyanshrajeev/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/riyanshrajeev/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/riyanshrajeev/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/riyanshrajeev/.m2/repository/io/rest-assured/json-path/4.3.2/json-path-4.3.2.jar:/Users/riyanshrajeev/.m2/repository/org/codehaus/groovy/groovy-json/3.0.6/groovy-json-3.0.6.jar:/Users/riyanshrajeev/.m2/repository/io/rest-assured/rest-assured-common/4.3.2/rest-assured-common-4.3.2.jar:/Users/riyanshrajeev/.m2/repository/io/rest-assured/xml-path/4.3.2/xml-path-4.3.2.jar:/Users/riyanshrajeev/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/riyanshrajeev/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/riyanshrajeev/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/Users/riyanshrajeev/.m2/repository/net/javacrumbs/json-unit/json-unit-assertj/2.18.1/json-unit-assertj-2.18.1.jar:/Users/riyanshrajeev/.m2/repository/net/javacrumbs/json-unit/json-unit-core/2.18.1/json-unit-core-2.18.1.jar:/Users/riyanshrajeev/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/riyanshrajeev/.m2/repository/org/hamcrest/hamcrest-core/2.1/hamcrest-core-2.1.jar:/Users/riyanshrajeev/.m2/repository/org/assertj/assertj-core/3.16.1/assertj-core-3.16.1.jar:/Users/riyanshrajeev/.m2/repository/net/javacrumbs/json-unit/json-unit-json-path/2.18.1/json-unit-json-path-2.18.1.jar:/Users/riyanshrajeev/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/riyanshrajeev/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/riyanshrajeev/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/riyanshrajeev/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/riyanshrajeev/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/riyanshrajeev/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/riyanshrajeev/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/riyanshrajeev/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/riyanshrajeev/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/riyanshrajeev/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/riyanshrajeev/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/riyanshrajeev/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/riyanshrajeev/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/riyanshrajeev/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/riyanshrajeev/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/riyanshrajeev/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/riyanshrajeev/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/riyanshrajeev/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/riyanshrajeev/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/riyanshrajeev/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/riyanshrajeev/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/riyanshrajeev/.m2/repository/io/github/bonigarcia/webdrivermanager/4.1.0/webdrivermanager-4.1.0.jar:/Users/riyanshrajeev/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/riyanshrajeev/.m2/repository/commons-io/commons-io/2.7/commons-io-2.7.jar:/Users/riyanshrajeev/.m2/repository/org/apache/commons/commons-lang3/3.10/commons-lang3-3.10.jar:/Users/riyanshrajeev/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.1/httpclient5-5.0.1.jar:/Users/riyanshrajeev/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.1/httpcore5-5.0.1.jar:/Users/riyanshrajeev/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.0.1/httpcore5-h2-5.0.1.jar:/Users/riyanshrajeev/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/Users/riyanshrajeev/.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/Users/riyanshrajeev/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:/Users/riyanshrajeev/.m2/repository/io/cucumber/cucumber-java/5.7.0/cucumber-java-5.7.0.jar:/Users/riyanshrajeev/.m2/repository/io/cucumber/cucumber-core/5.7.0/cucumber-core-5.7.0.jar:/Users/riyanshrajeev/.m2/repository/io/cucumber/cucumber-gherkin/5.7.0/cucumber-gherkin-5.7.0.jar:/Users/riyanshrajeev/.m2/repository/io/cucumber/cucumber-gherkin-vintage/5.7.0/cucumber-gherkin-vintage-5.7.0.jar:/Users/riyanshrajeev/.m2/repository/io/cucumber/tag-expressions/2.0.4/tag-expressions-2.0.4.jar:/Users/riyanshrajeev/.m2/repository/io/cucumber/cucumber-expressions/8.3.1/cucumber-expressions-8.3.1.jar:/Users/riyanshrajeev/.m2/repository/io/cucumber/datatable/3.3.1/datatable-3.3.1.jar:/Users/riyanshrajeev/.m2/repository/io/cucumber/cucumber-plugin/5.7.0/cucumber-plugin-5.7.0.jar:/Users/riyanshrajeev/.m2/repository/io/cucumber/docstring/5.7.0/docstring-5.7.0.jar:/Users/riyanshrajeev/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/riyanshrajeev/.m2/repository/io/cucumber/cucumber-junit/5.7.0/cucumber-junit-5.7.0.jar:/Users/riyanshrajeev/.m2/repository/junit/junit/4.13/junit-4.13.jar:/Users/riyanshrajeev/.m2/repository/org/eclipse/jetty/jetty-server/9.2.28.v20190418/jetty-server-9.2.28.v20190418.jar:/Users/riyanshrajeev/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/riyanshrajeev/.m2/repository/org/eclipse/jetty/jetty-http/9.2.28.v20190418/jetty-http-9.2.28.v20190418.jar:/Users/riyanshrajeev/.m2/repository/org/eclipse/jetty/jetty-io/9.2.28.v20190418/jetty-io-9.2.28.v20190418.jar:/Users/riyanshrajeev/.m2/repository/org/eclipse/jetty/jetty-servlet/9.2.28.v20190418/jetty-servlet-9.2.28.v20190418.jar:/Users/riyanshrajeev/.m2/repository/org/eclipse/jetty/jetty-security/9.2.28.v20190418/jetty-security-9.2.28.v20190418.jar:/Users/riyanshrajeev/.m2/repository/org/eclipse/jetty/jetty-servlets/9.2.28.v20190418/jetty-servlets-9.2.28.v20190418.jar:/Users/riyanshrajeev/.m2/repository/org/eclipse/jetty/jetty-continuation/9.2.28.v20190418/jetty-continuation-9.2.28.v20190418.jar:/Users/riyanshrajeev/.m2/repository/org/eclipse/jetty/jetty-util/9.2.28.v20190418/jetty-util-9.2.28.v20190418.jar:/Users/riyanshrajeev/.m2/repository/org/eclipse/jetty/jetty-webapp/9.2.28.v20190418/jetty-webapp-9.2.28.v20190418.jar:/Users/riyanshrajeev/.m2/repository/org/eclipse/jetty/jetty-xml/9.2.28.v20190418/jetty-xml-9.2.28.v20190418.jar:/Users/riyanshrajeev/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.10/jackson-core-2.9.10.jar:/Users/riyanshrajeev/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.10/jackson-annotations-2.9.10.jar:/Users/riyanshrajeev/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.10/jackson-databind-2.9.10.jar:/Users/riyanshrajeev/.m2/repository/org/xmlunit/xmlunit-core/2.6.2/xmlunit-core-2.6.2.jar:/Users/riyanshrajeev/.m2/repository/javax/xml/bind/jaxb-api/2.3.0/jaxb-api-2.3.0.jar:/Users/riyanshrajeev/.m2/repository/org/xmlunit/xmlunit-legacy/2.6.2/xmlunit-legacy-2.6.2.jar:/Users/riyanshrajeev/.m2/repository/org/xmlunit/xmlunit-placeholders/2.6.2/xmlunit-placeholders-2.6.2.jar:/Users/riyanshrajeev/.m2/repository/com/jayway/jsonpath/json-path/2.4.0/json-path-2.4.0.jar:/Users/riyanshrajeev/.m2/repository/net/minidev/json-smart/2.3/json-smart-2.3.jar:/Users/riyanshrajeev/.m2/repository/net/minidev/accessors-smart/1.2/accessors-smart-1.2.jar:/Users/riyanshrajeev/.m2/repository/org/ow2/asm/asm/7.0/asm-7.0.jar:/Users/riyanshrajeev/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar:/Users/riyanshrajeev/.m2/repository/com/flipkart/zjsonpatch/zjsonpatch/0.4.4/zjsonpatch-0.4.4.jar:/Users/riyanshrajeev/.m2/repository/com/github/jknack/handlebars/4.0.7/handlebars-4.0.7.jar:/Users/riyanshrajeev/.m2/repository/org/antlr/antlr4-runtime/4.7.1/antlr4-runtime-4.7.1.jar:/Users/riyanshrajeev/.m2/repository/com/github/jknack/handlebars-helpers/4.0.7/handlebars-helpers-4.0.7.jar:/Users/riyanshrajeev/.m2/repository/commons-fileupload/commons-fileupload/1.4/commons-fileupload-1.4.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="12"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-12.0.1.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/riyanshrajeev/Desktop/EbaySearch/target/surefire/surefirebooter16442401868713884734.jar /Users/riyanshrajeev/Desktop/EbaySearch/target/surefire 2022-08-28T22-00-05_793-jvmRun1 surefire5985943925772797883tmp surefire_011231534506457988138tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/riyanshrajeev/Desktop/EbaySearch/target/test-classes:/Users/riyanshrajeev/Desktop/EbaySearch/target/classes:/Users/riyanshrajeev/.m2/repository/io/rest-assured/rest-assured/4.3.2/rest-assured-4.3.2.jar:/Users/riyanshrajeev/.m2/repository/org/codehaus/groovy/groovy/3.0.6/groovy-3.0.6.jar:/Users/riyanshrajeev/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.6/groovy-xml-3.0.6.jar:/Users/riyanshrajeev/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/riyanshrajeev/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/riyanshrajeev/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/riyanshrajeev/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/riyanshrajeev/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/riyanshrajeev/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/riyanshrajeev/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/riyanshrajeev/.m2/repository/io/rest-assured/json-path/4.3.2/json-path-4.3.2.jar:/Users/riyanshrajeev/.m2/repository/org/codehaus/groovy/groovy-json/3.0.6/groovy-json-3.0.6.jar:/Users/riyanshrajeev/.m2/repository/io/rest-assured/rest-assured-common/4.3.2/rest-assured-common-4.3.2.jar:/Users/riyanshrajeev/.m2/repository/io/rest-assured/xml-path/4.3.2/xml-path-4.3.2.jar:/Users/riyanshrajeev/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/riyanshrajeev/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/riyanshrajeev/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/Users/riyanshrajeev/.m2/repository/net/javacrumbs/json-unit/json-unit-assertj/2.18.1/json-unit-assertj-2.18.1.jar:/Users/riyanshrajeev/.m2/repository/net/javacrumbs/json-unit/json-unit-core/2.18.1/json-unit-core-2.18.1.jar:/Users/riyanshrajeev/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/riyanshrajeev/.m2/repository/org/hamcrest/hamcrest-core/2.1/hamcrest-core-2.1.jar:/Users/riyanshrajeev/.m2/repository/org/assertj/assertj-core/3.16.1/assertj-core-3.16.1.jar:/Users/riyanshrajeev/.m2/repository/net/javacrumbs/json-unit/json-unit-json-path/2.18.1/json-unit-json-path-2.18.1.jar:/Users/riyanshrajeev/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/riyanshrajeev/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/riyanshrajeev/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/riyanshrajeev/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/riyanshrajeev/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/riyanshrajeev/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/riyanshrajeev/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/riyanshrajeev/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/riyanshrajeev/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/riyanshrajeev/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/riyanshrajeev/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/riyanshrajeev/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/riyanshrajeev/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/riyanshrajeev/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/riyanshrajeev/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/riyanshrajeev/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/riyanshrajeev/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/riyanshrajeev/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/riyanshrajeev/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/riyanshrajeev/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/riyanshrajeev/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/riyanshrajeev/.m2/repository/io/github/bonigarcia/webdrivermanager/4.1.0/webdrivermanager-4.1.0.jar:/Users/riyanshrajeev/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/riyanshrajeev/.m2/repository/commons-io/commons-io/2.7/commons-io-2.7.jar:/Users/riyanshrajeev/.m2/repository/org/apache/commons/commons-lang3/3.10/commons-lang3-3.10.jar:/Users/riyanshrajeev/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.1/httpclient5-5.0.1.jar:/Users/riyanshrajeev/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.1/httpcore5-5.0.1.jar:/Users/riyanshrajeev/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.0.1/httpcore5-h2-5.0.1.jar:/Users/riyanshrajeev/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/Users/riyanshrajeev/.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/Users/riyanshrajeev/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:/Users/riyanshrajeev/.m2/repository/io/cucumber/cucumber-java/5.7.0/cucumber-java-5.7.0.jar:/Users/riyanshrajeev/.m2/repository/io/cucumber/cucumber-core/5.7.0/cucumber-core-5.7.0.jar:/Users/riyanshrajeev/.m2/repository/io/cucumber/cucumber-gherkin/5.7.0/cucumber-gherkin-5.7.0.jar:/Users/riyanshrajeev/.m2/repository/io/cucumber/cucumber-gherkin-vintage/5.7.0/cucumber-gherkin-vintage-5.7.0.jar:/Users/riyanshrajeev/.m2/repository/io/cucumber/tag-expressions/2.0.4/tag-expressions-2.0.4.jar:/Users/riyanshrajeev/.m2/repository/io/cucumber/cucumber-expressions/8.3.1/cucumber-expressions-8.3.1.jar:/Users/riyanshrajeev/.m2/repository/io/cucumber/datatable/3.3.1/datatable-3.3.1.jar:/Users/riyanshrajeev/.m2/repository/io/cucumber/cucumber-plugin/5.7.0/cucumber-plugin-5.7.0.jar:/Users/riyanshrajeev/.m2/repository/io/cucumber/docstring/5.7.0/docstring-5.7.0.jar:/Users/riyanshrajeev/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/riyanshrajeev/.m2/repository/io/cucumber/cucumber-junit/5.7.0/cucumber-junit-5.7.0.jar:/Users/riyanshrajeev/.m2/repository/junit/junit/4.13/junit-4.13.jar:/Users/riyanshrajeev/.m2/repository/org/eclipse/jetty/jetty-server/9.2.28.v20190418/jetty-server-9.2.28.v20190418.jar:/Users/riyanshrajeev/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/riyanshrajeev/.m2/repository/org/eclipse/jetty/jetty-http/9.2.28.v20190418/jetty-http-9.2.28.v20190418.jar:/Users/riyanshrajeev/.m2/repository/org/eclipse/jetty/jetty-io/9.2.28.v20190418/jetty-io-9.2.28.v20190418.jar:/Users/riyanshrajeev/.m2/repository/org/eclipse/jetty/jetty-servlet/9.2.28.v20190418/jetty-servlet-9.2.28.v20190418.jar:/Users/riyanshrajeev/.m2/repository/org/eclipse/jetty/jetty-security/9.2.28.v20190418/jetty-security-9.2.28.v20190418.jar:/Users/riyanshrajeev/.m2/repository/org/eclipse/jetty/jetty-servlets/9.2.28.v20190418/jetty-servlets-9.2.28.v20190418.jar:/Users/riyanshrajeev/.m2/repository/org/eclipse/jetty/jetty-continuation/9.2.28.v20190418/jetty-continuation-9.2.28.v20190418.jar:/Users/riyanshrajeev/.m2/repository/org/eclipse/jetty/jetty-util/9.2.28.v20190418/jetty-util-9.2.28.v20190418.jar:/Users/riyanshrajeev/.m2/repository/org/eclipse/jetty/jetty-webapp/9.2.28.v20190418/jetty-webapp-9.2.28.v20190418.jar:/Users/riyanshrajeev/.m2/repository/org/eclipse/jetty/jetty-xml/9.2.28.v20190418/jetty-xml-9.2.28.v20190418.jar:/Users/riyanshrajeev/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.10/jackson-core-2.9.10.jar:/Users/riyanshrajeev/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.10/jackson-annotations-2.9.10.jar:/Users/riyanshrajeev/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.10/jackson-databind-2.9.10.jar:/Users/riyanshrajeev/.m2/repository/org/xmlunit/xmlunit-core/2.6.2/xmlunit-core-2.6.2.jar:/Users/riyanshrajeev/.m2/repository/javax/xml/bind/jaxb-api/2.3.0/jaxb-api-2.3.0.jar:/Users/riyanshrajeev/.m2/repository/org/xmlunit/xmlunit-legacy/2.6.2/xmlunit-legacy-2.6.2.jar:/Users/riyanshrajeev/.m2/repository/org/xmlunit/xmlunit-placeholders/2.6.2/xmlunit-placeholders-2.6.2.jar:/Users/riyanshrajeev/.m2/repository/com/jayway/jsonpath/json-path/2.4.0/json-path-2.4.0.jar:/Users/riyanshrajeev/.m2/repository/net/minidev/json-smart/2.3/json-smart-2.3.jar:/Users/riyanshrajeev/.m2/repository/net/minidev/accessors-smart/1.2/accessors-smart-1.2.jar:/Users/riyanshrajeev/.m2/repository/org/ow2/asm/asm/7.0/asm-7.0.jar:/Users/riyanshrajeev/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar:/Users/riyanshrajeev/.m2/repository/com/flipkart/zjsonpatch/zjsonpatch/0.4.4/zjsonpatch-0.4.4.jar:/Users/riyanshrajeev/.m2/repository/com/github/jknack/handlebars/4.0.7/handlebars-4.0.7.jar:/Users/riyanshrajeev/.m2/repository/org/antlr/antlr4-runtime/4.7.1/antlr4-runtime-4.7.1.jar:/Users/riyanshrajeev/.m2/repository/com/github/jknack/handlebars-helpers/4.0.7/handlebars-helpers-4.0.7.jar:/Users/riyanshrajeev/.m2/repository/commons-fileupload/commons-fileupload/1.4/commons-fileupload-1.4.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/riyanshrajeev"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2019-04-16"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-12.0.1.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/riyanshrajeev/Desktop/EbaySearch"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/riyanshrajeev/Desktop/EbaySearch/target/surefire/surefirebooter16442401868713884734.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="cucumber.plugin" value="html:target/cucumber-reports"/>
+    <property name="java.runtime.version" value="12.0.1+12"/>
+    <property name="user.name" value="riyanshrajeev"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.16"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/riyanshrajeev/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/m4/4clkwr75163b2d1_s6f770dh0000gn/T/"/>
+    <property name="java.version" value="12.0.1"/>
+    <property name="user.dir" value="/Users/riyanshrajeev/Desktop/EbaySearch"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.library.path" value="/Users/riyanshrajeev/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="12.0.1+12"/>
+    <property name="cucumber.glue" value="com/ebay/step_definitions"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="56.0"/>
+  </properties>
+  <testcase name="Search and verify results" classname="ebay search" time="13.775">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;s0-30-7-5[0]&quot;]/div[2]/div[1]/div/ul/li[4]/a&quot;}&#10;  (Session info: chrome=104.0.5112.101)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Rajeevs-Air.broadband&apos;, ip: &apos;fe80:0:0:0:4:9e02:d381:e94%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;12.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: /var/folders/m4/4clkwr75163...}, goog:chromeOptions: {debuggerAddress: localhost:59522}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5847b67c886a0e843328b854e7d0f789&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;s0-30-7-5[0]&quot;]/div[2]/div[1]/div/ul/li[4]/a}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="s0-30-7-5[0]"]/div[2]/div[1]/div/ul/li[4]/a"}
+  (Session info: chrome=104.0.5112.101)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Rajeevs-Air.broadband', ip: 'fe80:0:0:0:4:9e02:d381:e94%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: /var/folders/m4/4clkwr75163...}, goog:chromeOptions: {debuggerAddress: localhost:59522}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5847b67c886a0e843328b854e7d0f789
+*** Element info: {Using=xpath, value=//*[@id="s0-30-7-5[0]"]/div[2]/div[1]/div/ul/li[4]/a}
+</error>
+    <system-out><![CDATA[Sign in Link Text = Sign in
+Test Passed
+2,600+ results for selenium
+productPage.productList.size() = 61
+searcResults.get(5).getText() = Biotin Hair Growth Supplement 180 Tablets - 10,000mcg + Zinc + Selenium UK VEGAN
+Opens in a new window or tab
+✔ Hair ✔ Nails ✔ Skin ✔ Vegan ✔ UK Made ✔ MAX STRENGTH
+Brand new
+£3.89
+
+eBay Premium Service
+Buy it now
+Free 3 day postage
+Get it by Sat 3 Sep
+2,006 sold
+Sponsored
+productPage.getPostagecost.size() = 7
+getPostageCosts.getText() = Free postage
+getPostageCosts.getText() = Free postage
+getPostageCosts.getText() = + £1.00 postage
+getPostageCosts.getText() = Free postage
+getPostageCosts.getText() = Free postage
+getPostageCosts.getText() = Free postage
+getPostageCosts.getText() = + £4.20 postage
+productPage.getPostagecost.size() = 53
+getFreePostageCosts.getText() = Free next day postage
+getFreePostageCosts.getText() = Free 3 day postage
+getFreePostageCosts.getText() = Free 3 day postage
+getFreePostageCosts.getText() = Free 3 day postage
+getFreePostageCosts.getText() = Free 3 day postage
+getFreePostageCosts.getText() = Free 2 day postage
+getFreePostageCosts.getText() = Free 3 day postage
+getFreePostageCosts.getText() = Free 3 day postage
+getFreePostageCosts.getText() = Free 3 day postage
+getFreePostageCosts.getText() = Free 2 day postage
+getFreePostageCosts.getText() = Free 2 day postage
+getFreePostageCosts.getText() = Free 3 day postage
+getFreePostageCosts.getText() = Free 2 day postage
+getFreePostageCosts.getText() = Free next day postage
+getFreePostageCosts.getText() = Free next day postage
+getFreePostageCosts.getText() = Free 3 day postage
+getFreePostageCosts.getText() = Free 2 day postage
+getFreePostageCosts.getText() = Free next day postage
+getFreePostageCosts.getText() = Free 3 day postage
+getFreePostageCosts.getText() = Free 2 day postage
+getFreePostageCosts.getText() = Free next day postage
+getFreePostageCosts.getText() = Free 2 day postage
+getFreePostageCosts.getText() = Free 2 day postage
+getFreePostageCosts.getText() = Free 2 day postage
+getFreePostageCosts.getText() = Free 3 day postage
+getFreePostageCosts.getText() = Free 3 day postage
+getFreePostageCosts.getText() = Free 3 day postage
+getFreePostageCosts.getText() = Free 3 day postage
+getFreePostageCosts.getText() = Free 3 day postage
+getFreePostageCosts.getText() = Free 2 day postage
+getFreePostageCosts.getText() = Free 3 day postage
+getFreePostageCosts.getText() = Free 3 day postage
+getFreePostageCosts.getText() = Free 3 day postage
+getFreePostageCosts.getText() = Free 2 day postage
+getFreePostageCosts.getText() = Free 3 day postage
+getFreePostageCosts.getText() = Free 2 day postage
+getFreePostageCosts.getText() = Free 2 day postage
+getFreePostageCosts.getText() = Free 2 day postage
+getFreePostageCosts.getText() = Free 2 day postage
+getFreePostageCosts.getText() = Free 2 day postage
+getFreePostageCosts.getText() = Free 3 day postage
+getFreePostageCosts.getText() = Free 3 day postage
+getFreePostageCosts.getText() = Free 3 day postage
+getFreePostageCosts.getText() = Free 3 day postage
+getFreePostageCosts.getText() = Free 3 day postage
+getFreePostageCosts.getText() = Free 2 day postage
+getFreePostageCosts.getText() = Free 2 day postage
+getFreePostageCosts.getText() = Free 2 day postage
+getFreePostageCosts.getText() = Free next day postage
+getFreePostageCosts.getText() = Free 3 day postage
+getFreePostageCosts.getText() = Free 3 day postage
+getFreePostageCosts.getText() = Free 3 day postage
+getFreePostageCosts.getText() = Free 2 day postage
+productPage.noOfBidsCounts.size() = 38
+]]></system-out>
+    <system-err><![CDATA[Aug 28, 2022 10:00:07 PM io.cucumber.junit.Cucumber <init>
+WARNING: By default Cucumber is running in --non-strict mode.
+This default will change to --strict and --non-strict will be removed.
+You can use --strict or @CucumberOptions(strict = true) to suppress this warning
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 7768
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 28, 2022 10:00:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Search and navigate through results pages" classname="ebay search" time="30.381">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+</failure>
+    <system-out><![CDATA[Sign in Link Text = Sign in
+Test Passed
+2,400+ results for selenium
+productPage.productList.size() = 61
+searcResults.get(5).getText() = GREAT PRICE
+Selenium 200mcg x 120 Tablets as Bioavailable L-Selenomethionine
+Opens in a new window or tab
+Essential Mineral for Immunity & Thyroid Health
+Brand new
+£4.99
+Save up to 15% with Multi-buy
+Buy it now
+
+eBay Premium Service
+Free 2 day postage
+Get it by Fri 2 Sep
+Sponsored
+noOfActualPage = 10
+pagenoCount.getText() = 1
+pagenoCount.getText() = 2
+pagenoCount.getText() = 3
+pagenoCount.getText() = 4
+pagenoCount.getText() = 5
+pagenoCount.getText() = 6
+pagenoCount.getText() = 7
+pagenoCount.getText() = 8
+pagenoCount.getText() = 9
+pagenoCount.getText() = 
+The result has more than one page
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 46169
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 28, 2022 10:00:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>
